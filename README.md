@@ -7,7 +7,7 @@ The Basic-webpack-setup project is been made with HTML5, CSS3 and JS, following 
 ![](https://img.shields.io/github/followers/sheylaPozo?style=social)
 
 
-# Module 2 : "Testing Practice" 
+# Module 2 : "Test Practice" 
 ---
 
 > This project is part of Microverse's The Portal part of the curriculum. and it's been built with Html5 and CSS3 and JS as part of Microverse 2.0 curriculum.
@@ -32,7 +32,7 @@ To get the content of this project locally you need to run this command on your 
 
  - ` cd <folder> `
 
-- ` git clone git@github.com:sheylaPozo/testing-practice.git `
+- ` git clone git@github.com:sheylaPozo/test-practice.git `
 
 ### 🤍 Install
 
@@ -77,7 +77,7 @@ For tracking linter errors locally you need to follow these steps:
 Contributions, issues, and feature requests are welcome! 🤍
 
 
-Feel free to check the [issues page](https://github.com/sheylapozo/testing-practice/issues).
+Feel free to check the [issues page](https://github.com/sheylapozo/test-practice/issues).
 
 
 ## 🤍 Show your support
