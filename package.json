@@ -1,0 +1,29 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "Practical tests for JavaScript functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheylaPozo/testing-practice.git"
+  },
+  "keywords": [],
+  "author": "Sheyla Pozo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheylaPozo/testing-practice/issues"
+  },
+  "homepage": "https://github.com/sheylaPozo/testing-practice#readme",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "tslint": "^5.20.1",
+    "xxxxx": "^1.0.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "ts-node": "^10.1.0"
+  }
+}
