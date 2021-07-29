@@ -1,31 +1,52 @@
-const Calculator = require('./calculator.js');
+const Calculator = require("./calculator");
+let calc = new Calculator();
 
-describe('Unit tests', () => {
-  test('add method', () => {
-    const calc = new Calculator();
-    calc.add(1);
-    calc.add(2);
-    calc.add(7);
-    expect(calc.value).toBe(10);
+describe("calculate", () => {
+  test("add", () => {
+    expect(calc.add(2, 3)).toBe(5);
   });
-  test('subtract method', () => {
-    const calc = new Calculator();
-    calc.add(15);
-    calc.subtract(8);
-    calc.subtract(4);
-    expect(calc.value).toBe(3);
+
+  test("add", () => {
+    expect(calc.add(12, 3)).toBe(15);
   });
-  test('multiple method', () => {
-    const calc = new Calculator();
-    calc.add(7);
-    calc.subtract(2);
-    calc.multiply(5);
-    expect(calc.value).toBe(25);
+
+  test("add", () => {
+    expect(calc.add(11, 4)).toBe(15);
   });
-  test('divide method', () => {
-    const calc = new Calculator();
-    calc.add(44);
-    calc.divide(2);
-    expect(calc.value).toBe(22);
+
+  test("subtract", () => {
+    expect(calc.subtract(8, 5)).toBe(3);
+  });
+
+  test("subtract", () => {
+    expect(calc.subtract(20, 5)).toBe(15);
+  });
+
+  test("subtract", () => {
+    expect(calc.subtract(10, 5)).toBe(5);
+  });
+
+  test("divide", () => {
+    expect(calc.divide(10, 4)).toBe(6);
+  });
+
+  test("divide", () => {
+    expect(calc.divide(36, 6)).toBe(6);
+  });
+
+  test("divide", () => {
+    expect(calc.divide(20, 2)).toBe(10);
+  });
+
+  test("multiply", () => {
+    expect(calc.multiply(20, 2)).toBe(40);
+  });
+
+  test("multiply", () => {
+    expect(calc.multiply(5, 6)).toBe(30);
+  });
+
+  test("multiply", () => {
+    expect(calc.multiply(2, 6)).toBe(6);
   });
 });
